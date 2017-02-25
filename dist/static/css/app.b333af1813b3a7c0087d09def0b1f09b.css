@@ -27,7 +27,7 @@
     overflow: hidden;
 }
 #resumeEditor {
-  width: 35%;
+  min-width: 35%;
   background: #444;
 }
 #resumePreview {
@@ -612,9 +612,52 @@ hr[data-v-1f6f7918] {
   margin: 24px 0;
 }
 
-#resumePreview{
-	background-color:#ffffff;
-	box-shadow:0 1px 3px 0 rgba(0,0,0,0.25);
+#resumePreview {
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+  padding: 2em;
+  color: #333;
+  line-height: 1.2em;
+  overflow: auto;
+}
+* {
+  box-sizing: border-box;
+  font-variant: normal;
+  font-weight: normal;
+}
+ol {
+  list-style: none;
+}
+section + section {
+  margin-top: 2em;
+}
+p {
+  white-space: pre-line;
+}
+section > h2:first-child {
+  background: #ddd;
+  display: inline-block;
+  padding: .2em;
+  margin-bottom: .5em;
+}
+section[data-name="profile"] > h1 {
+  margin: .1em 0;
+  font-size: 4em;
+}
+section[data-name="workHistory"] li + li, section[data-name="projects"] li + li, section[data-name="awards"] li + li {
+  margin-top: 1em;
+}
+section[data-name="workHistory"] li > h3, section[data-name="projects"] li > h3, section[data-name="awards"] li > h3 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: .3em;
+  margin-bottom: .3em;
+}
+section[data-name="education"] li {
+  inline-heigth: 1.5;
+}
+section[data-name="contacts"] th {
+  padding-right: 1em;
+  font-weight: bold;
 }
 
 h1[data-v-46352ec8], h2[data-v-46352ec8] {
@@ -632,4 +675,4 @@ a[data-v-46352ec8] {
   color: #42b983;
 }
 
-/*# sourceMappingURL=app.c38bc8a774f74b2d3c9729529f3a120d.css.map*/
+/*# sourceMappingURL=app.b333af1813b3a7c0087d09def0b1f09b.css.map*/
