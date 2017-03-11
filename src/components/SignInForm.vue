@@ -6,7 +6,7 @@
   	  	<input type="text" required v-model="formDate.username">
   	  </div>
   	  <div class="row">
-  	  	<label>密码：</label>
+  	  	<label>密码 :</label>
   	  	<input type="password" required v-model="formDate.password">
   	  </div>
   	  <div class="actions">

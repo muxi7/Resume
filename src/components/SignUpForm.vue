@@ -2,11 +2,11 @@
   <div>
   	<form @submit.prevent="signUp">
   	  <div class="row">
-  	    <label>用户名：</label>
+  	    <label>用户名:</label>
   	    <input type="text" v-model="formDate.username" required>
   	  </div>
   	  <div class="row">
-  	  	<label>密码&nbsp;&nbsp;&nbsp;：</label>
+  	  	<label>密码 :</label>
   	    <input type="password" v-model="formDate.password" required>
   	  </div>
   	  <div class="actions">
@@ -58,8 +58,7 @@
 
 <style lang="scss">
   .row{
-    padding:5px;
-    
+    padding:5px; 
   }
   .btn{
     padding:10px 0;
