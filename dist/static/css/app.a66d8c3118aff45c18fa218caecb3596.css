@@ -533,23 +533,115 @@ template {
     font-size: 24px;
     color: #000000;
 }
-button[data-v-38ce6198] {
+.button[data-v-38ce6198] {
   width: 72px;
   height: 32px;
+  margin: 5px;
   border: none;
   cursor: pointer;
   font-size: 18px;
   background-color: #ddd;
   color: #222;
   border-radius: 5px;
+  text-decoration: none;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  vertical-align: middle;
 }
-button[data-v-38ce6198]:hover {
+.button[data-v-38ce6198]:hover {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     background-color: greenyellow;
 }
-button[data-v-38ce6198]:primary {
+.button[data-v-38ce6198]:primary {
     background-color: #02af5f;
     color: white;
+}
+.actions[data-v-38ce6198] {
+  display: -ms-flexbox;
+  display: flex;
+}
+.actions .userActions[data-v-38ce6198] {
+    margin-right: 3em;
+}
+.actions .userActions .welcome[data-v-38ce6198] {
+      margin-right: .5em;
+}
+
+.wrapper[data-v-1ba1ad8e] {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.25);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.dialog[data-v-1ba1ad8e] {
+  background: white;
+  min-height: 4em;
+  min-width: 10em;
+}
+.dialog > header[data-v-1ba1ad8e] {
+    color: white;
+    padding: 16px;
+    border-bottom: 1px solid;
+    background-color: #000;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+}
+.dialog > header > .close[data-v-1ba1ad8e] {
+      -ms-flex-item-align: end;
+          align-self: flex-end;
+      position: relative;
+      top: -14px;
+      right: -14px;
+      width: 24px;
+      text-align: center;
+      background-color: #eee;
+      color: #000;
+      border-radius: 12px;
+      cursor: pointer;
+}
+.dialog > main[data-v-1ba1ad8e] {
+    padding: 16px;
+}
+
+.row {
+  padding: 5px;
+}
+.btn {
+  padding: 10px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.btn > input {
+    margin-right: 10px;
+    border-radius: 8px;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+.errorMessage {
+  color: red;
+  font-size: 12px;
+  text-align: center;
 }
 
 #resumeEditor[data-v-1f6f7918] {
@@ -675,4 +767,4 @@ a[data-v-46352ec8] {
   color: #42b983;
 }
 
-/*# sourceMappingURL=app.b333af1813b3a7c0087d09def0b1f09b.css.map*/
+/*# sourceMappingURL=app.a66d8c3118aff45c18fa218caecb3596.css.map*/
