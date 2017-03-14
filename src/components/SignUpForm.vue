@@ -66,6 +66,8 @@
     justify-content:center;
     flex-wrap:wrap;
     >input{
+      background-color:#31a4ef;
+      color:#fff;
       margin-right:10px;
       border-radius:8px;
       padding:5px 30px;

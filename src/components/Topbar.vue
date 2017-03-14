@@ -18,9 +18,6 @@
             <SignInForm @success="signIn($event)"/>
           </MyDialog>
         </div>
-
-        <button class="button primary">保存</button>
-        <button class="button">预览</button>
       </div>
     </div>
   </div>
@@ -107,7 +104,7 @@ export default{
     vertical-align:middle;
     &:hover{
       box-shadow:1px 1px 1px hsla(0,0,0,0.5);
-      background-color:greenyellow;
+      background-color:#70edaa;
     }
     &:primary{
       background-color:#02af5f;
@@ -117,7 +114,6 @@ export default{
   .actions{
     display:flex;
     .userActions{
-      margin-right:3em;
       .welcome{
         margin-right:.5em;
       }

@@ -2,7 +2,7 @@
   <div class="wrapper" v-show="visible">
     <div class="dialog">
       <header>
-        <span>{{title}}</span>
+        <span class="title">{{title}}</span>
 		    <span class="close" @click="close">X</span>
       </header>
       <main>
@@ -45,10 +45,13 @@
       color:white;
   		padding:16px;
       border-bottom:1px solid;
-      background-color:#000;
+      background-color:#31a4ef;
   		display:flex;
   		align-items:center;
       flex-direction:column-reverse;
+      >.title{
+        font-size:30px;
+      }
       >.close{
         align-self:flex-end;
         position:relative;
@@ -56,8 +59,8 @@
         right:-14px;
         width:24px;
         text-align:center;
-        background-color:#eee;
-        color:#000;
+        background-color:#31a4ef;
+        color:#fff;
         border-radius:12px;
         cursor:pointer;
       }
